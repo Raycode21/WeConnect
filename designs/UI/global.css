@@ -32,20 +32,17 @@
         float: left; 
         margin-bottom: 10px;
         padding-left: 25px; 
-        background-color: #F0F8FF
+        background-color: #7FFFD4;
 
 }
 
 .card:hover {
-	background-color: #7FFFD4;
+	background-color: #F0F8FF;
 }
 
 .profile {
 	background: none;
 }
 
-img{
-	border-radius: 10px;
-	display: block;
-}
+
 
