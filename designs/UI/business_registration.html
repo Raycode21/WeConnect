@@ -14,7 +14,35 @@
   <a class="navbar-brand logo" href="#">
     WeConnect
   </a>
+
   <nav class="navbar navbar-light bg-faded">
+  <form action="#" method="get" id="searchForm" class="input-group">
+
+    <div class="input-group-btn search-panel">
+                        <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <option value="all">All</option>
+                            <option value="Corprate">Corprate</option>
+                            <option value="fast food">Fast food</option>
+                            <option value="Retail">Retail</option>
+                            <option value="Hotel">Hotel and Restuarants</option>
+                        </select>
+                      <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <option value="all">All</option>
+                            <option value="Nairobi">Nairobi</option>
+                            <option value="Mombasa">Mombasa</option>
+                            <option value="Kisumu">Kisumu</option>
+                            <option value="Eldoret">Eldoret</option>
+                            <option value="Nakuru">Nakuru</option>
+
+                        </select>  
+                    </div>
+                    <input type="text" class="form-control" name="x" placeholder="Search business">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                           <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+         </form>           
 </nav>
 
 

@@ -44,3 +44,8 @@
 	background: none;
 }
 
+img{
+	border-radius: 10px;
+	display: block;
+}
+
